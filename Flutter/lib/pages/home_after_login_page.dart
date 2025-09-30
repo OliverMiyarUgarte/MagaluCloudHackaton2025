@@ -1,11 +1,12 @@
 import 'package:flutter/material.dart';
+import 'package:hackaton_magalu_2025/pages/user.dart';
 import 'main_page.dart';
 import 'profile_page.dart';
 import 'add_friend_page.dart';
 import 'dragons_page.dart';
 
 class HomeAfterLoginPage extends StatefulWidget {
-  const HomeAfterLoginPage({super.key});
+  const HomeAfterLoginPage({super.key, required User loggedUser});
 
   @override
   State<HomeAfterLoginPage> createState() => _HomeAfterLoginPageState();
