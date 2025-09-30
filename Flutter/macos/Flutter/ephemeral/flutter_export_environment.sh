@@ -1,7 +1,7 @@
 #!/bin/sh
 # This is a generated file; do not edit or check into version control.
-export "FLUTTER_ROOT=/home/ianfls/SDK/flutter"
-export "FLUTTER_APPLICATION_PATH=/home/ianfls/Documentos/Hackaton Magalu/MagaluCloudHackaton2025/Flutter"
+export "FLUTTER_ROOT=/home/mark42/SDK/flutter"
+export "FLUTTER_APPLICATION_PATH=/home/mark42/Documentos/MagaluCloudHackaton2025/Flutter"
 export "COCOAPODS_PARALLEL_CODE_SIGN=true"
 export "FLUTTER_BUILD_DIR=build"
 export "FLUTTER_BUILD_NAME=1.0.0"

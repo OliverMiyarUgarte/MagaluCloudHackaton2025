@@ -1,6 +1,6 @@
 # Generated code do not commit.
-file(TO_CMAKE_PATH "/home/ianfls/SDK/flutter" FLUTTER_ROOT)
-file(TO_CMAKE_PATH "/home/ianfls/Documentos/Hackaton Magalu/MagaluCloudHackaton2025/Flutter" PROJECT_DIR)
+file(TO_CMAKE_PATH "/home/mark42/SDK/flutter" FLUTTER_ROOT)
+file(TO_CMAKE_PATH "/home/mark42/Documentos/MagaluCloudHackaton2025/Flutter" PROJECT_DIR)
 
 set(FLUTTER_VERSION "1.0.0+1" PARENT_SCOPE)
 set(FLUTTER_VERSION_MAJOR 1 PARENT_SCOPE)
@@ -10,12 +10,12 @@ set(FLUTTER_VERSION_BUILD 1 PARENT_SCOPE)
 
 # Environment variables to pass to tool_backend.sh
 list(APPEND FLUTTER_TOOL_ENVIRONMENT
-  "FLUTTER_ROOT=/home/ianfls/SDK/flutter"
-  "PROJECT_DIR=/home/ianfls/Documentos/Hackaton Magalu/MagaluCloudHackaton2025/Flutter"
+  "FLUTTER_ROOT=/home/mark42/SDK/flutter"
+  "PROJECT_DIR=/home/mark42/Documentos/MagaluCloudHackaton2025/Flutter"
   "DART_DEFINES=RkxVVFRFUl9WRVJTSU9OPTMuMzUuNQ==,RkxVVFRFUl9DSEFOTkVMPXN0YWJsZQ==,RkxVVFRFUl9HSVRfVVJMPWh0dHBzOi8vZ2l0aHViLmNvbS9mbHV0dGVyL2ZsdXR0ZXIuZ2l0,RkxVVFRFUl9GUkFNRVdPUktfUkVWSVNJT049YWM0ZTc5OWQyMw==,RkxVVFRFUl9FTkdJTkVfUkVWSVNJT049ZDNkNDVkY2YyNQ==,RkxVVFRFUl9EQVJUX1ZFUlNJT049My45LjI="
   "DART_OBFUSCATION=false"
   "TRACK_WIDGET_CREATION=true"
   "TREE_SHAKE_ICONS=false"
-  "PACKAGE_CONFIG=/home/ianfls/Documentos/Hackaton Magalu/MagaluCloudHackaton2025/Flutter/.dart_tool/package_config.json"
-  "FLUTTER_TARGET=/home/ianfls/Documentos/Hackaton Magalu/MagaluCloudHackaton2025/Flutter/lib/main.dart"
+  "PACKAGE_CONFIG=/home/mark42/Documentos/MagaluCloudHackaton2025/Flutter/.dart_tool/package_config.json"
+  "FLUTTER_TARGET=/home/mark42/Documentos/MagaluCloudHackaton2025/Flutter/lib/main.dart"
 )

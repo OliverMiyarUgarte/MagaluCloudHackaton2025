@@ -5,6 +5,25 @@ import 'user.dart';
 class ApiService {
   static const String baseUrl = "http://201.23.71.165:8080/api";
 
+
+  static Future<void> createGroup(String name, int userId) async {
+    final url = Uri.parse("$baseUrl/grupos/");
+    final response = await http.post(
+      url,
+      headers: {
+        "Content-Type": "application/json",
+      },
+      body: jsonEncode({
+        "name": name,     // ⚠️ deve ser exatamente "name"
+        "nuser": userId,  // usuário dono/criador do grupo
+      }),
+    );
+
+    if (response.statusCode != 201) {
+      throw Exception("Erro ao criar grupo: ${response.body}");
+    }
+  }
+
   // LOGIN
 static Future<User> login(String email, String password) async {
   final url = Uri.parse("$baseUrl/users/");
@@ -67,3 +86,5 @@ static Future<User> register(String email, String password, String username) asy
     throw Exception("Erro ao buscar dragões");
   }
 }
+
+

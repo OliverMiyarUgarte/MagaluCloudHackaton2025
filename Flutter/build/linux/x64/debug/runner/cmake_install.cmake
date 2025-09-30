@@ -1,8 +1,8 @@
-# Install script for directory: /home/ianfls/Documentos/Hackaton Magalu/MagaluCloudHackaton2025/Flutter/linux/runner
+# Install script for directory: /home/mark42/Documentos/MagaluCloudHackaton2025/Flutter/linux/runner
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/ianfls/Documentos/Hackaton Magalu/MagaluCloudHackaton2025/Flutter/build/linux/x64/debug/bundle")
+  set(CMAKE_INSTALL_PREFIX "/home/mark42/Documentos/MagaluCloudHackaton2025/Flutter/build/linux/x64/debug/bundle")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -45,6 +45,6 @@ endif()
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
 if(CMAKE_INSTALL_LOCAL_ONLY)
-  file(WRITE "/home/ianfls/Documentos/Hackaton Magalu/MagaluCloudHackaton2025/Flutter/build/linux/x64/debug/runner/install_local_manifest.txt"
+  file(WRITE "/home/mark42/Documentos/MagaluCloudHackaton2025/Flutter/build/linux/x64/debug/runner/install_local_manifest.txt"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
 endif()

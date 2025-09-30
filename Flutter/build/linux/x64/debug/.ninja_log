@@ -1,54 +1,53 @@
 # ninja log v6
-7	4111	1759274090318763188	/home/ianfls/Documentos/Hackaton Magalu/MagaluCloudHackaton2025/Flutter/linux/flutter/ephemeral/flutter_linux/fl_plugin_registry.h	f3d8fe9321c5fb22
-7	4111	1759274090318763188	/home/ianfls/Documentos/Hackaton Magalu/MagaluCloudHackaton2025/Flutter/linux/flutter/ephemeral/flutter_linux/fl_binary_messenger.h	f3d8fe9321c5fb22
-7	4111	1759274090318763188	/home/ianfls/Documentos/Hackaton Magalu/MagaluCloudHackaton2025/Flutter/linux/flutter/ephemeral/flutter_linux/fl_json_method_codec.h	f3d8fe9321c5fb22
-7	4111	1759274090318763188	/home/ianfls/Documentos/Hackaton Magalu/MagaluCloudHackaton2025/Flutter/linux/flutter/ephemeral/flutter_linux/fl_engine.h	f3d8fe9321c5fb22
-7	4111	1759274090318763188	/home/ianfls/Documentos/Hackaton Magalu/MagaluCloudHackaton2025/Flutter/linux/flutter/ephemeral/flutter_linux/fl_json_message_codec.h	f3d8fe9321c5fb22
-7	4111	1759274090318763188	/home/ianfls/Documentos/Hackaton Magalu/MagaluCloudHackaton2025/Flutter/linux/flutter/ephemeral/flutter_linux/fl_message_codec.h	f3d8fe9321c5fb22
-7690	8275	1759272900956707842	runner/CMakeFiles/hackaton_magalu_2025.dir/my_application.cc.o	5c3007ef7ee1abcc
-7	4111	1759274090318763188	/home/ianfls/Documentos/Hackaton Magalu/MagaluCloudHackaton2025/Flutter/linux/flutter/ephemeral/flutter_linux/fl_method_call.h	f3d8fe9321c5fb22
-7	4111	1759274090318763188	/home/ianfls/Documentos/Hackaton Magalu/MagaluCloudHackaton2025/Flutter/linux/flutter/ephemeral/flutter_linux/fl_dart_project.h	f3d8fe9321c5fb22
-7690	8207	1759272900955257861	runner/CMakeFiles/hackaton_magalu_2025.dir/main.cc.o	1199e879dd05e4b8
-7	4111	1759274090318763188	/home/ianfls/Documentos/Hackaton Magalu/MagaluCloudHackaton2025/Flutter/linux/flutter/ephemeral/flutter_linux/fl_method_codec.h	f3d8fe9321c5fb22
-7	4111	1759274090318763188	/home/ianfls/Documentos/Hackaton Magalu/MagaluCloudHackaton2025/Flutter/linux/flutter/ephemeral/flutter_linux/fl_method_response.h	f3d8fe9321c5fb22
-7	4111	1759274090318763188	/home/ianfls/Documentos/Hackaton Magalu/MagaluCloudHackaton2025/Flutter/linux/flutter/ephemeral/flutter_linux/fl_method_channel.h	f3d8fe9321c5fb22
-7	4111	1759274090318763188	/home/ianfls/Documentos/Hackaton Magalu/MagaluCloudHackaton2025/Flutter/linux/flutter/ephemeral/flutter_linux/fl_binary_codec.h	f3d8fe9321c5fb22
-7	4111	1759274090318763188	/home/ianfls/Documentos/Hackaton Magalu/MagaluCloudHackaton2025/Flutter/build/linux/x64/debug/flutter/_phony_	f3d8fe9321c5fb22
-7	4111	1759274090318763188	/home/ianfls/Documentos/Hackaton Magalu/MagaluCloudHackaton2025/Flutter/linux/flutter/ephemeral/flutter_linux/fl_basic_message_channel.h	f3d8fe9321c5fb22
-7	4111	1759274090318763188	/home/ianfls/Documentos/Hackaton Magalu/MagaluCloudHackaton2025/Flutter/linux/flutter/ephemeral/libflutter_linux_gtk.so	f3d8fe9321c5fb22
-7	4111	1759274090318763188	/home/ianfls/Documentos/Hackaton Magalu/MagaluCloudHackaton2025/Flutter/linux/flutter/ephemeral/flutter_linux/flutter_linux.h	f3d8fe9321c5fb22
-7	4111	1759274090318763188	/home/ianfls/Documentos/Hackaton Magalu/MagaluCloudHackaton2025/Flutter/linux/flutter/ephemeral/flutter_linux/fl_plugin_registrar.h	f3d8fe9321c5fb22
-4112	4249	1759274094423764730	intermediates_do_not_run/hackaton_magalu_2025	4986593a7de907ed
-7	4111	1759274090318763188	/home/ianfls/Documentos/Hackaton Magalu/MagaluCloudHackaton2025/Flutter/linux/flutter/ephemeral/flutter_linux/fl_standard_message_codec.h	f3d8fe9321c5fb22
-7	4111	1759274090318763188	/home/ianfls/Documentos/Hackaton Magalu/MagaluCloudHackaton2025/Flutter/linux/flutter/ephemeral/flutter_linux/fl_string_codec.h	f3d8fe9321c5fb22
-4249	4313	1759274094560764781	CMakeFiles/install.util	523985c2edc3feda
-7	4111	1759274090318763188	/home/ianfls/Documentos/Hackaton Magalu/MagaluCloudHackaton2025/Flutter/linux/flutter/ephemeral/flutter_linux/fl_standard_method_codec.h	f3d8fe9321c5fb22
-7690	8260	1759272900957013895	runner/CMakeFiles/hackaton_magalu_2025.dir/__/flutter/generated_plugin_registrant.cc.o	fbe93accef9fc440
-7	4111	1759274090318763188	/home/ianfls/Documentos/Hackaton Magalu/MagaluCloudHackaton2025/Flutter/linux/flutter/ephemeral/flutter_linux/fl_value.h	f3d8fe9321c5fb22
-7	4111	1759274090318763188	/home/ianfls/Documentos/Hackaton Magalu/MagaluCloudHackaton2025/Flutter/linux/flutter/ephemeral/flutter_linux/fl_view.h	f3d8fe9321c5fb22
-7	4111	1759274090318763188	flutter/_phony_	f3d8fe9321c5fb22
-3	3996	1759274497894916305	/home/ianfls/Documentos/Hackaton Magalu/MagaluCloudHackaton2025/Flutter/linux/flutter/ephemeral/libflutter_linux_gtk.so	f3d8fe9321c5fb22
-3	3996	1759274497894916305	/home/ianfls/Documentos/Hackaton Magalu/MagaluCloudHackaton2025/Flutter/linux/flutter/ephemeral/flutter_linux/fl_basic_message_channel.h	f3d8fe9321c5fb22
-3	3996	1759274497894916305	/home/ianfls/Documentos/Hackaton Magalu/MagaluCloudHackaton2025/Flutter/linux/flutter/ephemeral/flutter_linux/fl_binary_codec.h	f3d8fe9321c5fb22
-3	3996	1759274497894916305	/home/ianfls/Documentos/Hackaton Magalu/MagaluCloudHackaton2025/Flutter/linux/flutter/ephemeral/flutter_linux/fl_binary_messenger.h	f3d8fe9321c5fb22
-3	3996	1759274497894916305	/home/ianfls/Documentos/Hackaton Magalu/MagaluCloudHackaton2025/Flutter/linux/flutter/ephemeral/flutter_linux/fl_dart_project.h	f3d8fe9321c5fb22
-3	3996	1759274497894916305	/home/ianfls/Documentos/Hackaton Magalu/MagaluCloudHackaton2025/Flutter/linux/flutter/ephemeral/flutter_linux/fl_engine.h	f3d8fe9321c5fb22
-3	3996	1759274497894916305	/home/ianfls/Documentos/Hackaton Magalu/MagaluCloudHackaton2025/Flutter/linux/flutter/ephemeral/flutter_linux/fl_json_message_codec.h	f3d8fe9321c5fb22
-3	3996	1759274497894916305	/home/ianfls/Documentos/Hackaton Magalu/MagaluCloudHackaton2025/Flutter/linux/flutter/ephemeral/flutter_linux/fl_json_method_codec.h	f3d8fe9321c5fb22
-3	3996	1759274497894916305	/home/ianfls/Documentos/Hackaton Magalu/MagaluCloudHackaton2025/Flutter/linux/flutter/ephemeral/flutter_linux/fl_message_codec.h	f3d8fe9321c5fb22
-3	3996	1759274497894916305	/home/ianfls/Documentos/Hackaton Magalu/MagaluCloudHackaton2025/Flutter/linux/flutter/ephemeral/flutter_linux/fl_method_call.h	f3d8fe9321c5fb22
-3	3996	1759274497894916305	/home/ianfls/Documentos/Hackaton Magalu/MagaluCloudHackaton2025/Flutter/linux/flutter/ephemeral/flutter_linux/fl_method_channel.h	f3d8fe9321c5fb22
-3	3996	1759274497894916305	/home/ianfls/Documentos/Hackaton Magalu/MagaluCloudHackaton2025/Flutter/linux/flutter/ephemeral/flutter_linux/fl_method_codec.h	f3d8fe9321c5fb22
-3	3996	1759274497894916305	/home/ianfls/Documentos/Hackaton Magalu/MagaluCloudHackaton2025/Flutter/linux/flutter/ephemeral/flutter_linux/fl_method_response.h	f3d8fe9321c5fb22
-3	3996	1759274497894916305	/home/ianfls/Documentos/Hackaton Magalu/MagaluCloudHackaton2025/Flutter/linux/flutter/ephemeral/flutter_linux/fl_plugin_registrar.h	f3d8fe9321c5fb22
-3	3996	1759274497894916305	/home/ianfls/Documentos/Hackaton Magalu/MagaluCloudHackaton2025/Flutter/linux/flutter/ephemeral/flutter_linux/fl_plugin_registry.h	f3d8fe9321c5fb22
-3	3996	1759274497894916305	/home/ianfls/Documentos/Hackaton Magalu/MagaluCloudHackaton2025/Flutter/linux/flutter/ephemeral/flutter_linux/fl_standard_message_codec.h	f3d8fe9321c5fb22
-3	3996	1759274497894916305	/home/ianfls/Documentos/Hackaton Magalu/MagaluCloudHackaton2025/Flutter/linux/flutter/ephemeral/flutter_linux/fl_standard_method_codec.h	f3d8fe9321c5fb22
-3	3996	1759274497894916305	/home/ianfls/Documentos/Hackaton Magalu/MagaluCloudHackaton2025/Flutter/linux/flutter/ephemeral/flutter_linux/fl_string_codec.h	f3d8fe9321c5fb22
-3	3996	1759274497894916305	/home/ianfls/Documentos/Hackaton Magalu/MagaluCloudHackaton2025/Flutter/linux/flutter/ephemeral/flutter_linux/fl_value.h	f3d8fe9321c5fb22
-3	3996	1759274497894916305	/home/ianfls/Documentos/Hackaton Magalu/MagaluCloudHackaton2025/Flutter/linux/flutter/ephemeral/flutter_linux/fl_view.h	f3d8fe9321c5fb22
-3	3996	1759274497894916305	/home/ianfls/Documentos/Hackaton Magalu/MagaluCloudHackaton2025/Flutter/linux/flutter/ephemeral/flutter_linux/flutter_linux.h	f3d8fe9321c5fb22
-3	3996	1759274497894916305	flutter/_phony_	f3d8fe9321c5fb22
-3	3996	1759274497894916305	/home/ianfls/Documentos/Hackaton Magalu/MagaluCloudHackaton2025/Flutter/build/linux/x64/debug/flutter/_phony_	f3d8fe9321c5fb22
-3997	4144	1759274501888917806	intermediates_do_not_run/hackaton_magalu_2025	4986593a7de907ed
-4144	4179	1759274502035917861	CMakeFiles/install.util	523985c2edc3feda
+11902	12759	1759274728725340491	runner/CMakeFiles/hackaton_magalu_2025.dir/__/flutter/generated_plugin_registrant.cc.o	6db3d0b76d844a26
+12	4971	1759275714578736002	/home/mark42/Documentos/MagaluCloudHackaton2025/Flutter/linux/flutter/ephemeral/flutter_linux/fl_dart_project.h	7b30f5323def296f
+12	4971	1759275714578736002	/home/mark42/Documentos/MagaluCloudHackaton2025/Flutter/linux/flutter/ephemeral/flutter_linux/fl_binary_messenger.h	7b30f5323def296f
+12	4971	1759275714578736002	/home/mark42/Documentos/MagaluCloudHackaton2025/Flutter/linux/flutter/ephemeral/flutter_linux/fl_method_channel.h	7b30f5323def296f
+12	4971	1759275714578736002	/home/mark42/Documentos/MagaluCloudHackaton2025/Flutter/linux/flutter/ephemeral/flutter_linux/fl_engine.h	7b30f5323def296f
+12	4971	1759275714578736002	/home/mark42/Documentos/MagaluCloudHackaton2025/Flutter/linux/flutter/ephemeral/flutter_linux/fl_standard_method_codec.h	7b30f5323def296f
+12	4971	1759275714578736002	flutter/_phony_	7b30f5323def296f
+12	4971	1759275714578736002	/home/mark42/Documentos/MagaluCloudHackaton2025/Flutter/linux/flutter/ephemeral/flutter_linux/fl_message_codec.h	7b30f5323def296f
+12	4971	1759275714578736002	/home/mark42/Documentos/MagaluCloudHackaton2025/Flutter/linux/flutter/ephemeral/flutter_linux/fl_method_codec.h	7b30f5323def296f
+5324	5581	1759275332324462137	intermediates_do_not_run/hackaton_magalu_2025	fef6da2e2bf8859
+12	4971	1759275714578736002	/home/mark42/Documentos/MagaluCloudHackaton2025/Flutter/linux/flutter/ephemeral/flutter_linux/fl_binary_codec.h	7b30f5323def296f
+12	4971	1759275714578736002	/home/mark42/Documentos/MagaluCloudHackaton2025/Flutter/linux/flutter/ephemeral/flutter_linux/fl_method_response.h	7b30f5323def296f
+12	4971	1759275714578736002	/home/mark42/Documentos/MagaluCloudHackaton2025/Flutter/linux/flutter/ephemeral/flutter_linux/fl_method_call.h	7b30f5323def296f
+12	4971	1759275714578736002	/home/mark42/Documentos/MagaluCloudHackaton2025/Flutter/linux/flutter/ephemeral/flutter_linux/fl_json_method_codec.h	7b30f5323def296f
+12	4971	1759275714578736002	/home/mark42/Documentos/MagaluCloudHackaton2025/Flutter/linux/flutter/ephemeral/flutter_linux/fl_standard_message_codec.h	7b30f5323def296f
+12	4971	1759275714578736002	/home/mark42/Documentos/MagaluCloudHackaton2025/Flutter/linux/flutter/ephemeral/flutter_linux/fl_json_message_codec.h	7b30f5323def296f
+12	4971	1759275714578736002	/home/mark42/Documentos/MagaluCloudHackaton2025/Flutter/linux/flutter/ephemeral/libflutter_linux_gtk.so	7b30f5323def296f
+12	4971	1759275714578736002	/home/mark42/Documentos/MagaluCloudHackaton2025/Flutter/linux/flutter/ephemeral/flutter_linux/fl_plugin_registry.h	7b30f5323def296f
+12	4971	1759275714578736002	/home/mark42/Documentos/MagaluCloudHackaton2025/Flutter/linux/flutter/ephemeral/flutter_linux/fl_basic_message_channel.h	7b30f5323def296f
+12	4971	1759275714578736002	/home/mark42/Documentos/MagaluCloudHackaton2025/Flutter/linux/flutter/ephemeral/flutter_linux/fl_view.h	7b30f5323def296f
+12	4971	1759275714578736002	/home/mark42/Documentos/MagaluCloudHackaton2025/Flutter/linux/flutter/ephemeral/flutter_linux/fl_string_codec.h	7b30f5323def296f
+12	4971	1759275714578736002	/home/mark42/Documentos/MagaluCloudHackaton2025/Flutter/linux/flutter/ephemeral/flutter_linux/fl_value.h	7b30f5323def296f
+12	4971	1759275714578736002	/home/mark42/Documentos/MagaluCloudHackaton2025/Flutter/build/linux/x64/debug/flutter/_phony_	7b30f5323def296f
+12	4971	1759275714578736002	/home/mark42/Documentos/MagaluCloudHackaton2025/Flutter/linux/flutter/ephemeral/flutter_linux/fl_plugin_registrar.h	7b30f5323def296f
+12	4971	1759275714578736002	/home/mark42/Documentos/MagaluCloudHackaton2025/Flutter/linux/flutter/ephemeral/flutter_linux/flutter_linux.h	7b30f5323def296f
+11901	12728	1759274728724001098	runner/CMakeFiles/hackaton_magalu_2025.dir/main.cc.o	40b194009d63a9c4
+4972	5044	1759275719538622850	CMakeFiles/install.util	41ce5b0f081158d1
+11901	12783	1759274728724975082	runner/CMakeFiles/hackaton_magalu_2025.dir/my_application.cc.o	fda56aaedc5daa33
+3	4901	1759275832627042927	/home/mark42/Documentos/MagaluCloudHackaton2025/Flutter/linux/flutter/ephemeral/libflutter_linux_gtk.so	7b30f5323def296f
+3	4901	1759275832627042927	/home/mark42/Documentos/MagaluCloudHackaton2025/Flutter/linux/flutter/ephemeral/flutter_linux/fl_basic_message_channel.h	7b30f5323def296f
+3	4901	1759275832627042927	/home/mark42/Documentos/MagaluCloudHackaton2025/Flutter/linux/flutter/ephemeral/flutter_linux/fl_binary_codec.h	7b30f5323def296f
+3	4901	1759275832627042927	/home/mark42/Documentos/MagaluCloudHackaton2025/Flutter/linux/flutter/ephemeral/flutter_linux/fl_binary_messenger.h	7b30f5323def296f
+3	4901	1759275832627042927	/home/mark42/Documentos/MagaluCloudHackaton2025/Flutter/linux/flutter/ephemeral/flutter_linux/fl_dart_project.h	7b30f5323def296f
+3	4901	1759275832627042927	/home/mark42/Documentos/MagaluCloudHackaton2025/Flutter/linux/flutter/ephemeral/flutter_linux/fl_engine.h	7b30f5323def296f
+3	4901	1759275832627042927	/home/mark42/Documentos/MagaluCloudHackaton2025/Flutter/linux/flutter/ephemeral/flutter_linux/fl_json_message_codec.h	7b30f5323def296f
+3	4901	1759275832627042927	/home/mark42/Documentos/MagaluCloudHackaton2025/Flutter/linux/flutter/ephemeral/flutter_linux/fl_json_method_codec.h	7b30f5323def296f
+3	4901	1759275832627042927	/home/mark42/Documentos/MagaluCloudHackaton2025/Flutter/linux/flutter/ephemeral/flutter_linux/fl_message_codec.h	7b30f5323def296f
+3	4901	1759275832627042927	/home/mark42/Documentos/MagaluCloudHackaton2025/Flutter/linux/flutter/ephemeral/flutter_linux/fl_method_call.h	7b30f5323def296f
+3	4901	1759275832627042927	/home/mark42/Documentos/MagaluCloudHackaton2025/Flutter/linux/flutter/ephemeral/flutter_linux/fl_method_channel.h	7b30f5323def296f
+3	4901	1759275832627042927	/home/mark42/Documentos/MagaluCloudHackaton2025/Flutter/linux/flutter/ephemeral/flutter_linux/fl_method_codec.h	7b30f5323def296f
+3	4901	1759275832627042927	/home/mark42/Documentos/MagaluCloudHackaton2025/Flutter/linux/flutter/ephemeral/flutter_linux/fl_method_response.h	7b30f5323def296f
+3	4901	1759275832627042927	/home/mark42/Documentos/MagaluCloudHackaton2025/Flutter/linux/flutter/ephemeral/flutter_linux/fl_plugin_registrar.h	7b30f5323def296f
+3	4901	1759275832627042927	/home/mark42/Documentos/MagaluCloudHackaton2025/Flutter/linux/flutter/ephemeral/flutter_linux/fl_plugin_registry.h	7b30f5323def296f
+3	4901	1759275832627042927	/home/mark42/Documentos/MagaluCloudHackaton2025/Flutter/linux/flutter/ephemeral/flutter_linux/fl_standard_message_codec.h	7b30f5323def296f
+3	4901	1759275832627042927	/home/mark42/Documentos/MagaluCloudHackaton2025/Flutter/linux/flutter/ephemeral/flutter_linux/fl_standard_method_codec.h	7b30f5323def296f
+3	4901	1759275832627042927	/home/mark42/Documentos/MagaluCloudHackaton2025/Flutter/linux/flutter/ephemeral/flutter_linux/fl_string_codec.h	7b30f5323def296f
+3	4901	1759275832627042927	/home/mark42/Documentos/MagaluCloudHackaton2025/Flutter/linux/flutter/ephemeral/flutter_linux/fl_value.h	7b30f5323def296f
+3	4901	1759275832627042927	/home/mark42/Documentos/MagaluCloudHackaton2025/Flutter/linux/flutter/ephemeral/flutter_linux/fl_view.h	7b30f5323def296f
+3	4901	1759275832627042927	/home/mark42/Documentos/MagaluCloudHackaton2025/Flutter/linux/flutter/ephemeral/flutter_linux/flutter_linux.h	7b30f5323def296f
+3	4901	1759275832627042927	flutter/_phony_	7b30f5323def296f
+3	4901	1759275832627042927	/home/mark42/Documentos/MagaluCloudHackaton2025/Flutter/build/linux/x64/debug/flutter/_phony_	7b30f5323def296f
+4902	4948	1759275837525931167	CMakeFiles/install.util	41ce5b0f081158d1

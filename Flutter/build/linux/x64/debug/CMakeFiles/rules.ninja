@@ -44,7 +44,7 @@ rule CXX_EXECUTABLE_LINKER__hackaton_magalu_2025_Debug
 # Rule for re-running cmake.
 
 rule RERUN_CMAKE
-  command = /usr/bin/cmake --regenerate-during-build -S"/home/ianfls/Documentos/Hackaton Magalu/MagaluCloudHackaton2025/Flutter/linux" -B"/home/ianfls/Documentos/Hackaton Magalu/MagaluCloudHackaton2025/Flutter/build/linux/x64/debug"
+  command = /usr/bin/cmake --regenerate-during-build -S/home/mark42/Documentos/MagaluCloudHackaton2025/Flutter/linux -B/home/mark42/Documentos/MagaluCloudHackaton2025/Flutter/build/linux/x64/debug
   description = Re-running CMake...
   generator = 1
 
