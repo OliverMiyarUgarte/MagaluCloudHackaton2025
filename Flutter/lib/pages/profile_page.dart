@@ -3,17 +3,13 @@ import 'package:flutter/material.dart';
 class ProfilePage extends StatelessWidget {
   final String userName;
   final String email;
-  final int level;
-  final int dragonsOwned;
-  final int streak;
+  final List<Dragon> dragons;
 
   const ProfilePage({
     super.key,
     required this.userName,
     required this.email,
-    required this.level,
-    required this.dragonsOwned,
-    required this.streak,
+    required this.dragons,
   });
 
   @override
@@ -21,37 +17,35 @@ class ProfilePage extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         title: Text('Perfil de $userName'),
-        leading: IconButton(
-          icon: const Icon(Icons.arrow_back),
-          onPressed: () => Navigator.pop(context),
-        ),
+        backgroundColor: Colors.deepPurple,
       ),
       body: Padding(
-        padding: const EdgeInsets.all(24.0),
+        padding: const EdgeInsets.all(16.0),
         child: Column(
+          crossAxisAlignment: CrossAxisAlignment.start,
           children: [
-            CircleAvatar(
-              radius: 60,
-              backgroundImage: const AssetImage('assets/user_photo.png'),
-            ),
-            const SizedBox(height: 24),
             Text(userName,
                 style: const TextStyle(
-                    color: Colors.white, fontSize: 28, fontWeight: FontWeight.bold)),
-            const SizedBox(height: 8),
-            Text(email, style: const TextStyle(color: Colors.white70, fontSize: 16)),
+                    fontSize: 28, fontWeight: FontWeight.bold)),
+            const SizedBox(height: 4),
+            Text(email, style: const TextStyle(fontSize: 16)),
             const SizedBox(height: 24),
-            Card(
-              color: Colors.deepPurpleAccent.withOpacity(0.2),
-              child: Padding(
-                padding: const EdgeInsets.all(16.0),
-                child: Column(
-                  children: [
-                    _buildInfoRow('Nível', '$level'),
-                    _buildInfoRow('Dragões Possuídos', '$dragonsOwned'),
-                    _buildInfoRow('Streak', '$streak dias'),
-                  ],
-                ),
+            const Text('Dragões do Usuário',
+                style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold)),
+            const SizedBox(height: 12),
+            Expanded(
+              child: ListView.builder(
+                itemCount: dragons.length,
+                itemBuilder: (context, index) {
+                  final dragon = dragons[index];
+                  return Card(
+                    child: ListTile(
+                      title: Text(dragon.name),
+                      subtitle: Text(
+                          'Nível: ${dragon.level}, Tipo: ${dragon.type}, Cor: ${dragon.color}, Poder: ${dragon.power}'),
+                    ),
+                  );
+                },
               ),
             ),
           ],
@@ -59,17 +53,20 @@ class ProfilePage extends StatelessWidget {
       ),
     );
   }
+}
 
-  Widget _buildInfoRow(String label, String value) {
-    return Padding(
-      padding: const EdgeInsets.symmetric(vertical: 6),
-      child: Row(
-        mainAxisAlignment: MainAxisAlignment.spaceBetween,
-        children: [
-          Text(label, style: const TextStyle(color: Colors.white70)),
-          Text(value, style: const TextStyle(color: Colors.white, fontWeight: FontWeight.bold)),
-        ],
-      ),
-    );
-  }
+class Dragon {
+  final String name;
+  final int level;
+  final String color;
+  final String type;
+  final int power;
+
+  Dragon({
+    required this.name,
+    required this.level,
+    required this.color,
+    required this.type,
+    required this.power,
+  });
 }

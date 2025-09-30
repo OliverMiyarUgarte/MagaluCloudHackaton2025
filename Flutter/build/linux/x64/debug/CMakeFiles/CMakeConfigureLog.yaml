@@ -28,7 +28,7 @@ events:
       Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
       
       The CXX compiler identification is Clang, found in:
-        /home/mark42/Documentos/ProjetoH/MagaluCloudHackaton2025/Flutter/build/linux/x64/debug/CMakeFiles/3.31.6/CompilerIdCXX/a.out
+        /home/ianfls/Documentos/Hackaton Magalu/MagaluCloudHackaton2025/Flutter/build/linux/x64/debug/CMakeFiles/3.31.6/CompilerIdCXX/a.out
       
   -
     kind: "try_compile-v1"
@@ -39,8 +39,8 @@ events:
     checks:
       - "Detecting CXX compiler ABI info"
     directories:
-      source: "/home/mark42/Documentos/ProjetoH/MagaluCloudHackaton2025/Flutter/build/linux/x64/debug/CMakeFiles/CMakeScratch/TryCompile-Lhs2DA"
-      binary: "/home/mark42/Documentos/ProjetoH/MagaluCloudHackaton2025/Flutter/build/linux/x64/debug/CMakeFiles/CMakeScratch/TryCompile-Lhs2DA"
+      source: "/home/ianfls/Documentos/Hackaton Magalu/MagaluCloudHackaton2025/Flutter/build/linux/x64/debug/CMakeFiles/CMakeScratch/TryCompile-NcUUNm"
+      binary: "/home/ianfls/Documentos/Hackaton Magalu/MagaluCloudHackaton2025/Flutter/build/linux/x64/debug/CMakeFiles/CMakeScratch/TryCompile-NcUUNm"
     cmakeVariables:
       CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "/usr/bin/clang-scan-deps-20"
       CMAKE_CXX_FLAGS: ""
@@ -51,10 +51,10 @@ events:
       variable: "CMAKE_CXX_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: '/home/mark42/Documentos/ProjetoH/MagaluCloudHackaton2025/Flutter/build/linux/x64/debug/CMakeFiles/CMakeScratch/TryCompile-Lhs2DA'
+        Change Dir: '/home/ianfls/Documentos/Hackaton Magalu/MagaluCloudHackaton2025/Flutter/build/linux/x64/debug/CMakeFiles/CMakeScratch/TryCompile-NcUUNm'
         
-        Run Build Command(s): /usr/bin/ninja-build -v cmTC_14694
-        [1/2] /usr/bin/clang++   -v -MD -MT CMakeFiles/cmTC_14694.dir/CMakeCXXCompilerABI.cpp.o -MF CMakeFiles/cmTC_14694.dir/CMakeCXXCompilerABI.cpp.o.d -o CMakeFiles/cmTC_14694.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp
+        Run Build Command(s): /usr/bin/ninja-build -v cmTC_8e2bf
+        [1/2] /usr/bin/clang++   -v -MD -MT CMakeFiles/cmTC_8e2bf.dir/CMakeCXXCompilerABI.cpp.o -MF CMakeFiles/cmTC_8e2bf.dir/CMakeCXXCompilerABI.cpp.o.d -o CMakeFiles/cmTC_8e2bf.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp
         clang version 20.1.8 (Fedora 20.1.8-4.fc42)
         Target: x86_64-redhat-linux-gnu
         Thread model: posix
@@ -67,7 +67,7 @@ events:
         Candidate multilib: 32;@m32
         Selected multilib: .;@m64
          (in-process)
-         "/usr/bin/clang-20" -cc1 -triple x86_64-redhat-linux-gnu -emit-obj -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model static -mframe-pointer=all -fmath-errno -ffp-contract=on -fno-rounding-math -mconstructor-aliases -funwind-tables=2 -target-cpu x86-64 -tune-cpu generic -debugger-tuning=gdb -fdebug-compilation-dir=/home/mark42/Documentos/ProjetoH/MagaluCloudHackaton2025/Flutter/build/linux/x64/debug/CMakeFiles/CMakeScratch/TryCompile-Lhs2DA -v -fcoverage-compilation-dir=/home/mark42/Documentos/ProjetoH/MagaluCloudHackaton2025/Flutter/build/linux/x64/debug/CMakeFiles/CMakeScratch/TryCompile-Lhs2DA -resource-dir /usr/bin/../lib/clang/20 -dependency-file CMakeFiles/cmTC_14694.dir/CMakeCXXCompilerABI.cpp.o.d -MT CMakeFiles/cmTC_14694.dir/CMakeCXXCompilerABI.cpp.o -sys-header-deps -internal-isystem /usr/bin/../lib/gcc/x86_64-redhat-linux/15/../../../../include/c++/15 -internal-isystem /usr/bin/../lib/gcc/x86_64-redhat-linux/15/../../../../include/c++/15/x86_64-redhat-linux -internal-isystem /usr/bin/../lib/gcc/x86_64-redhat-linux/15/../../../../include/c++/15/backward -internal-isystem /usr/bin/../lib/clang/20/include -internal-isystem /usr/local/include -internal-isystem /usr/bin/../lib/gcc/x86_64-redhat-linux/15/../../../../x86_64-redhat-linux/include -internal-externc-isystem /include -internal-externc-isystem /usr/include -fdeprecated-macro -ferror-limit 19 -fgnuc-version=4.2.1 -fskip-odr-check-in-gmf -fcxx-exceptions -fexceptions -faddrsig -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_14694.dir/CMakeCXXCompilerABI.cpp.o -x c++ /usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp
+         "/usr/bin/clang-20" -cc1 -triple x86_64-redhat-linux-gnu -emit-obj -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model static -mframe-pointer=all -fmath-errno -ffp-contract=on -fno-rounding-math -mconstructor-aliases -funwind-tables=2 -target-cpu x86-64 -tune-cpu generic -debugger-tuning=gdb "-fdebug-compilation-dir=/home/ianfls/Documentos/Hackaton Magalu/MagaluCloudHackaton2025/Flutter/build/linux/x64/debug/CMakeFiles/CMakeScratch/TryCompile-NcUUNm" -v "-fcoverage-compilation-dir=/home/ianfls/Documentos/Hackaton Magalu/MagaluCloudHackaton2025/Flutter/build/linux/x64/debug/CMakeFiles/CMakeScratch/TryCompile-NcUUNm" -resource-dir /usr/bin/../lib/clang/20 -dependency-file CMakeFiles/cmTC_8e2bf.dir/CMakeCXXCompilerABI.cpp.o.d -MT CMakeFiles/cmTC_8e2bf.dir/CMakeCXXCompilerABI.cpp.o -sys-header-deps -internal-isystem /usr/bin/../lib/gcc/x86_64-redhat-linux/15/../../../../include/c++/15 -internal-isystem /usr/bin/../lib/gcc/x86_64-redhat-linux/15/../../../../include/c++/15/x86_64-redhat-linux -internal-isystem /usr/bin/../lib/gcc/x86_64-redhat-linux/15/../../../../include/c++/15/backward -internal-isystem /usr/bin/../lib/clang/20/include -internal-isystem /usr/local/include -internal-isystem /usr/bin/../lib/gcc/x86_64-redhat-linux/15/../../../../x86_64-redhat-linux/include -internal-externc-isystem /include -internal-externc-isystem /usr/include -fdeprecated-macro -ferror-limit 19 -fgnuc-version=4.2.1 -fskip-odr-check-in-gmf -fcxx-exceptions -fexceptions -faddrsig -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_8e2bf.dir/CMakeCXXCompilerABI.cpp.o -x c++ /usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp
         clang -cc1 version 20.1.8 based upon LLVM 20.1.8 default target x86_64-redhat-linux-gnu
         ignoring nonexistent directory "/usr/bin/../lib/gcc/x86_64-redhat-linux/15/../../../../x86_64-redhat-linux/include"
         ignoring nonexistent directory "/include"
@@ -80,7 +80,7 @@ events:
          /usr/local/include
          /usr/include
         End of search list.
-        [2/2] : && /usr/bin/clang++  -v -Wl,-v CMakeFiles/cmTC_14694.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_14694   && :
+        [2/2] : && /usr/bin/clang++  -v -Wl,-v CMakeFiles/cmTC_8e2bf.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_8e2bf   && :
         clang version 20.1.8 (Fedora 20.1.8-4.fc42)
         Target: x86_64-redhat-linux-gnu
         Thread model: posix
@@ -92,7 +92,7 @@ events:
         Candidate multilib: .;@m64
         Candidate multilib: 32;@m32
         Selected multilib: .;@m64
-         "/usr/bin/ld" --hash-style=gnu --build-id --eh-frame-hdr -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_14694 /usr/bin/../lib/gcc/x86_64-redhat-linux/15/../../../../lib64/crt1.o /usr/bin/../lib/gcc/x86_64-redhat-linux/15/../../../../lib64/crti.o /usr/bin/../lib/gcc/x86_64-redhat-linux/15/crtbegin.o -L/usr/bin/../lib/clang/20/lib/x86_64-redhat-linux-gnu -L/usr/bin/../lib/gcc/x86_64-redhat-linux/15 -L/usr/bin/../lib/gcc/x86_64-redhat-linux/15/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/lib -L/usr/lib -v CMakeFiles/cmTC_14694.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/bin/../lib/gcc/x86_64-redhat-linux/15/crtend.o /usr/bin/../lib/gcc/x86_64-redhat-linux/15/../../../../lib64/crtn.o
+         "/usr/bin/ld" --hash-style=gnu --build-id --eh-frame-hdr -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_8e2bf /usr/bin/../lib/gcc/x86_64-redhat-linux/15/../../../../lib64/crt1.o /usr/bin/../lib/gcc/x86_64-redhat-linux/15/../../../../lib64/crti.o /usr/bin/../lib/gcc/x86_64-redhat-linux/15/crtbegin.o -L/usr/bin/../lib/clang/20/lib/x86_64-redhat-linux-gnu -L/usr/bin/../lib/gcc/x86_64-redhat-linux/15 -L/usr/bin/../lib/gcc/x86_64-redhat-linux/15/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/lib -L/usr/lib -v CMakeFiles/cmTC_8e2bf.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/bin/../lib/gcc/x86_64-redhat-linux/15/crtend.o /usr/bin/../lib/gcc/x86_64-redhat-linux/15/../../../../lib64/crtn.o
         GNU ld version 2.44-6.fc42
         
       exitCode: 0
@@ -132,10 +132,10 @@ events:
       Parsed CXX implicit link information:
         link line regex: [^( *|.*[/\\])(ld[0-9]*(\\.[a-z]+)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
         linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(\\.[a-z]+)?))("|,| |$)]
-        ignore line: [Change Dir: '/home/mark42/Documentos/ProjetoH/MagaluCloudHackaton2025/Flutter/build/linux/x64/debug/CMakeFiles/CMakeScratch/TryCompile-Lhs2DA']
+        ignore line: [Change Dir: '/home/ianfls/Documentos/Hackaton Magalu/MagaluCloudHackaton2025/Flutter/build/linux/x64/debug/CMakeFiles/CMakeScratch/TryCompile-NcUUNm']
         ignore line: []
-        ignore line: [Run Build Command(s): /usr/bin/ninja-build -v cmTC_14694]
-        ignore line: [[1/2] /usr/bin/clang++   -v -MD -MT CMakeFiles/cmTC_14694.dir/CMakeCXXCompilerABI.cpp.o -MF CMakeFiles/cmTC_14694.dir/CMakeCXXCompilerABI.cpp.o.d -o CMakeFiles/cmTC_14694.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp]
+        ignore line: [Run Build Command(s): /usr/bin/ninja-build -v cmTC_8e2bf]
+        ignore line: [[1/2] /usr/bin/clang++   -v -MD -MT CMakeFiles/cmTC_8e2bf.dir/CMakeCXXCompilerABI.cpp.o -MF CMakeFiles/cmTC_8e2bf.dir/CMakeCXXCompilerABI.cpp.o.d -o CMakeFiles/cmTC_8e2bf.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp]
         ignore line: [clang version 20.1.8 (Fedora 20.1.8-4.fc42)]
         ignore line: [Target: x86_64-redhat-linux-gnu]
         ignore line: [Thread model: posix]
@@ -151,7 +151,7 @@ events:
         ignore line: [Selected multilib: .]
         ignore line: [@m64]
         ignore line: [ (in-process)]
-        ignore line: [ "/usr/bin/clang-20" -cc1 -triple x86_64-redhat-linux-gnu -emit-obj -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model static -mframe-pointer=all -fmath-errno -ffp-contract=on -fno-rounding-math -mconstructor-aliases -funwind-tables=2 -target-cpu x86-64 -tune-cpu generic -debugger-tuning=gdb -fdebug-compilation-dir=/home/mark42/Documentos/ProjetoH/MagaluCloudHackaton2025/Flutter/build/linux/x64/debug/CMakeFiles/CMakeScratch/TryCompile-Lhs2DA -v -fcoverage-compilation-dir=/home/mark42/Documentos/ProjetoH/MagaluCloudHackaton2025/Flutter/build/linux/x64/debug/CMakeFiles/CMakeScratch/TryCompile-Lhs2DA -resource-dir /usr/bin/../lib/clang/20 -dependency-file CMakeFiles/cmTC_14694.dir/CMakeCXXCompilerABI.cpp.o.d -MT CMakeFiles/cmTC_14694.dir/CMakeCXXCompilerABI.cpp.o -sys-header-deps -internal-isystem /usr/bin/../lib/gcc/x86_64-redhat-linux/15/../../../../include/c++/15 -internal-isystem /usr/bin/../lib/gcc/x86_64-redhat-linux/15/../../../../include/c++/15/x86_64-redhat-linux -internal-isystem /usr/bin/../lib/gcc/x86_64-redhat-linux/15/../../../../include/c++/15/backward -internal-isystem /usr/bin/../lib/clang/20/include -internal-isystem /usr/local/include -internal-isystem /usr/bin/../lib/gcc/x86_64-redhat-linux/15/../../../../x86_64-redhat-linux/include -internal-externc-isystem /include -internal-externc-isystem /usr/include -fdeprecated-macro -ferror-limit 19 -fgnuc-version=4.2.1 -fskip-odr-check-in-gmf -fcxx-exceptions -fexceptions -faddrsig -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_14694.dir/CMakeCXXCompilerABI.cpp.o -x c++ /usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp]
+        ignore line: [ "/usr/bin/clang-20" -cc1 -triple x86_64-redhat-linux-gnu -emit-obj -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model static -mframe-pointer=all -fmath-errno -ffp-contract=on -fno-rounding-math -mconstructor-aliases -funwind-tables=2 -target-cpu x86-64 -tune-cpu generic -debugger-tuning=gdb "-fdebug-compilation-dir=/home/ianfls/Documentos/Hackaton Magalu/MagaluCloudHackaton2025/Flutter/build/linux/x64/debug/CMakeFiles/CMakeScratch/TryCompile-NcUUNm" -v "-fcoverage-compilation-dir=/home/ianfls/Documentos/Hackaton Magalu/MagaluCloudHackaton2025/Flutter/build/linux/x64/debug/CMakeFiles/CMakeScratch/TryCompile-NcUUNm" -resource-dir /usr/bin/../lib/clang/20 -dependency-file CMakeFiles/cmTC_8e2bf.dir/CMakeCXXCompilerABI.cpp.o.d -MT CMakeFiles/cmTC_8e2bf.dir/CMakeCXXCompilerABI.cpp.o -sys-header-deps -internal-isystem /usr/bin/../lib/gcc/x86_64-redhat-linux/15/../../../../include/c++/15 -internal-isystem /usr/bin/../lib/gcc/x86_64-redhat-linux/15/../../../../include/c++/15/x86_64-redhat-linux -internal-isystem /usr/bin/../lib/gcc/x86_64-redhat-linux/15/../../../../include/c++/15/backward -internal-isystem /usr/bin/../lib/clang/20/include -internal-isystem /usr/local/include -internal-isystem /usr/bin/../lib/gcc/x86_64-redhat-linux/15/../../../../x86_64-redhat-linux/include -internal-externc-isystem /include -internal-externc-isystem /usr/include -fdeprecated-macro -ferror-limit 19 -fgnuc-version=4.2.1 -fskip-odr-check-in-gmf -fcxx-exceptions -fexceptions -faddrsig -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_8e2bf.dir/CMakeCXXCompilerABI.cpp.o -x c++ /usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp]
         ignore line: [clang -cc1 version 20.1.8 based upon LLVM 20.1.8 default target x86_64-redhat-linux-gnu]
         ignore line: [ignoring nonexistent directory "/usr/bin/../lib/gcc/x86_64-redhat-linux/15/../../../../x86_64-redhat-linux/include"]
         ignore line: [ignoring nonexistent directory "/include"]
@@ -164,7 +164,7 @@ events:
         ignore line: [ /usr/local/include]
         ignore line: [ /usr/include]
         ignore line: [End of search list.]
-        ignore line: [[2/2] : && /usr/bin/clang++  -v -Wl -v CMakeFiles/cmTC_14694.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_14694   && :]
+        ignore line: [[2/2] : && /usr/bin/clang++  -v -Wl -v CMakeFiles/cmTC_8e2bf.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_8e2bf   && :]
         ignore line: [clang version 20.1.8 (Fedora 20.1.8-4.fc42)]
         ignore line: [Target: x86_64-redhat-linux-gnu]
         ignore line: [Thread model: posix]
@@ -179,7 +179,7 @@ events:
         ignore line: [@m32]
         ignore line: [Selected multilib: .]
         ignore line: [@m64]
-        link line: [ "/usr/bin/ld" --hash-style=gnu --build-id --eh-frame-hdr -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_14694 /usr/bin/../lib/gcc/x86_64-redhat-linux/15/../../../../lib64/crt1.o /usr/bin/../lib/gcc/x86_64-redhat-linux/15/../../../../lib64/crti.o /usr/bin/../lib/gcc/x86_64-redhat-linux/15/crtbegin.o -L/usr/bin/../lib/clang/20/lib/x86_64-redhat-linux-gnu -L/usr/bin/../lib/gcc/x86_64-redhat-linux/15 -L/usr/bin/../lib/gcc/x86_64-redhat-linux/15/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/lib -L/usr/lib -v CMakeFiles/cmTC_14694.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/bin/../lib/gcc/x86_64-redhat-linux/15/crtend.o /usr/bin/../lib/gcc/x86_64-redhat-linux/15/../../../../lib64/crtn.o]
+        link line: [ "/usr/bin/ld" --hash-style=gnu --build-id --eh-frame-hdr -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_8e2bf /usr/bin/../lib/gcc/x86_64-redhat-linux/15/../../../../lib64/crt1.o /usr/bin/../lib/gcc/x86_64-redhat-linux/15/../../../../lib64/crti.o /usr/bin/../lib/gcc/x86_64-redhat-linux/15/crtbegin.o -L/usr/bin/../lib/clang/20/lib/x86_64-redhat-linux-gnu -L/usr/bin/../lib/gcc/x86_64-redhat-linux/15 -L/usr/bin/../lib/gcc/x86_64-redhat-linux/15/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/lib -L/usr/lib -v CMakeFiles/cmTC_8e2bf.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/bin/../lib/gcc/x86_64-redhat-linux/15/crtend.o /usr/bin/../lib/gcc/x86_64-redhat-linux/15/../../../../lib64/crtn.o]
           arg [/usr/bin/ld] ==> ignore
           arg [--hash-style=gnu] ==> ignore
           arg [--build-id] ==> ignore
@@ -189,7 +189,7 @@ events:
           arg [-dynamic-linker] ==> ignore
           arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
           arg [-o] ==> ignore
-          arg [cmTC_14694] ==> ignore
+          arg [cmTC_8e2bf] ==> ignore
           arg [/usr/bin/../lib/gcc/x86_64-redhat-linux/15/../../../../lib64/crt1.o] ==> obj [/usr/bin/../lib/gcc/x86_64-redhat-linux/15/../../../../lib64/crt1.o]
           arg [/usr/bin/../lib/gcc/x86_64-redhat-linux/15/../../../../lib64/crti.o] ==> obj [/usr/bin/../lib/gcc/x86_64-redhat-linux/15/../../../../lib64/crti.o]
           arg [/usr/bin/../lib/gcc/x86_64-redhat-linux/15/crtbegin.o] ==> obj [/usr/bin/../lib/gcc/x86_64-redhat-linux/15/crtbegin.o]
@@ -201,7 +201,7 @@ events:
           arg [-L/lib] ==> dir [/lib]
           arg [-L/usr/lib] ==> dir [/usr/lib]
           arg [-v] ==> ignore
-          arg [CMakeFiles/cmTC_14694.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+          arg [CMakeFiles/cmTC_8e2bf.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
           arg [-lstdc++] ==> lib [stdc++]
           arg [-lm] ==> lib [m]
           arg [-lgcc_s] ==> lib [gcc_s]

@@ -16,7 +16,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.dark(
           primary: Colors.deepPurpleAccent,
           secondary: Colors.purpleAccent,
-          background: const Color(0xFF121212),
+          surface: const Color(0xFF121212),
         ),
         scaffoldBackgroundColor: const Color(0xFF121212),
         elevatedButtonTheme: ElevatedButtonThemeData(
@@ -27,7 +27,7 @@ class MyApp extends StatelessWidget {
           ),
         ),
       ),
-      home: const HomePage(),
+      home: const AuthPage(),
     );
   }
 }

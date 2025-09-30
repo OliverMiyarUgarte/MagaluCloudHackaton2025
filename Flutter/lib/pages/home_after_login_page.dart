@@ -6,7 +6,9 @@ import 'add_friend_page.dart';
 import 'dragons_page.dart';
 
 class HomeAfterLoginPage extends StatefulWidget {
-  const HomeAfterLoginPage({super.key, required User loggedUser});
+  final User loggedUser;
+
+  const HomeAfterLoginPage({super.key, required this.loggedUser});
 
   @override
   State<HomeAfterLoginPage> createState() => _HomeAfterLoginPageState();
@@ -14,19 +16,11 @@ class HomeAfterLoginPage extends StatefulWidget {
 
 class _HomeAfterLoginPageState extends State<HomeAfterLoginPage> {
   int selectedIndex = 0;
-  double totalHoursStudied = 42.5;
 
   @override
   Widget build(BuildContext context) {
-    String userName = 'Ian';
-    int streak = 3;
-
     final pages = [
-      MainPage(
-        userName: userName,
-        streak: streak,
-        totalHours: totalHoursStudied,
-      ),
+      const MainPage(),
       const AddFriendPage(),
       const DragonsPage(),
     ];
@@ -42,16 +36,17 @@ class _HomeAfterLoginPageState extends State<HomeAfterLoginPage> {
                 backgroundColor: const Color(0xFF2B303A),
                 labelType: NavigationRailLabelType.all,
                 leading: GestureDetector(
-                  onTap: () {
+                  onTap: () async {
+                    // Buscar dragões do usuário (função deve ser implementada para puxar do banco real)
+                    final dragons = await fetchUserDragons(widget.loggedUser.id);
+
                     Navigator.push(
                       context,
                       MaterialPageRoute(
                         builder: (_) => ProfilePage(
-                          userName: userName,
-                          email: 'ian@email.com',
-                          level: (totalHoursStudied ~/ 10) + 1,
-                          dragonsOwned: 0,
-                          streak: streak,
+                          userName: widget.loggedUser.username,
+                          email: widget.loggedUser.email,
+                          dragons: dragons,
                         ),
                       ),
                     );
@@ -60,7 +55,11 @@ class _HomeAfterLoginPageState extends State<HomeAfterLoginPage> {
                     padding: const EdgeInsets.symmetric(vertical: 16.0),
                     child: CircleAvatar(
                       radius: 24,
-                      backgroundImage: const AssetImage('assets/user_photo.png'),
+                      child: Text(
+                        widget.loggedUser.username[0].toUpperCase(),
+                        style: const TextStyle(color: Colors.white),
+                      ),
+                      backgroundColor: Colors.deepPurpleAccent,
                     ),
                   ),
                 ),
@@ -96,5 +95,14 @@ class _HomeAfterLoginPageState extends State<HomeAfterLoginPage> {
         ],
       ),
     );
+  }
+
+  // Função de exemplo para buscar dragões do usuário
+  Future<List<Dragon>> fetchUserDragons(int userId) async {
+    // Aqui você implementa a consulta real no banco ou via API
+    return [
+      Dragon(name: 'Draco', level: 5, color: 'Vermelho', type: 'Fogo', power: 100),
+      Dragon(name: 'Aqua', level: 3, color: 'Azul', type: 'Água', power: 80),
+    ];
   }
 }

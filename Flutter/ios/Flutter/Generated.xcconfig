@@ -1,6 +1,6 @@
 // This is a generated file; do not edit or check into version control.
-FLUTTER_ROOT=/home/mark42/SDK/flutter
-FLUTTER_APPLICATION_PATH=/home/mark42/Documentos/ProjetoH/MagaluCloudHackaton2025/Flutter
+FLUTTER_ROOT=/home/ianfls/SDK/flutter
+FLUTTER_APPLICATION_PATH=/home/ianfls/Documentos/Hackaton Magalu/MagaluCloudHackaton2025/Flutter
 COCOAPODS_PARALLEL_CODE_SIGN=true
 FLUTTER_TARGET=lib/main.dart
 FLUTTER_BUILD_DIR=build
