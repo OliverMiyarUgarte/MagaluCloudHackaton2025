@@ -27,6 +27,15 @@ CREATE TABLE Dragao (
     Poder INT NOT NULL
 );
 
+-- Nova tabela: Tarefa
+CREATE TABLE Tarefa (
+    ID_Tarefa INT AUTO_INCREMENT PRIMARY KEY,
+    Concluida BOOLEAN NOT NULL DEFAULT FALSE,
+    Tempo INT NOT NULL,
+    ID_grupo INT NOT NULL,
+    FOREIGN KEY (ID_grupo) REFERENCES Grupo(ID_grupo) ON DELETE CASCADE
+);
+
 -- ========================
 -- Tabelas Relacionais
 -- ========================
@@ -50,18 +59,14 @@ CREATE TABLE TUG (
 -- ========================
 -- Triggers para cardinalidade mínima
 -- ========================
-
 DELIMITER //
 
 -- Dragão deve ter pelo menos 1 usuário
-CREATE TRIGGER trg_dragao_usuario
-BEFORE DELETE ON TUD
+CREATE TRIGGER trg_dragao_usuario BEFORE DELETE ON TUD
 FOR EACH ROW
 BEGIN
     DECLARE qtd INT;
-    SELECT COUNT(*) INTO qtd
-    FROM TUD
-    WHERE ID_dragao = OLD.ID_dragao;
+    SELECT COUNT(*) INTO qtd FROM TUD WHERE ID_dragao = OLD.ID_dragao;
     IF qtd <= 1 THEN
         SIGNAL SQLSTATE '45000'
         SET MESSAGE_TEXT = 'Um dragão deve pertencer a pelo menos um usuário';
@@ -69,14 +74,11 @@ BEGIN
 END//
 
 -- Grupo deve ter pelo menos 1 usuário
-CREATE TRIGGER trg_grupo_usuario
-BEFORE DELETE ON TUG
+CREATE TRIGGER trg_grupo_usuario BEFORE DELETE ON TUG
 FOR EACH ROW
 BEGIN
     DECLARE qtd INT;
-    SELECT COUNT(*) INTO qtd
-    FROM TUG
-    WHERE ID_grupo = OLD.ID_grupo;
+    SELECT COUNT(*) INTO qtd FROM TUG WHERE ID_grupo = OLD.ID_grupo;
     IF qtd <= 1 THEN
         SIGNAL SQLSTATE '45000'
         SET MESSAGE_TEXT = 'Um grupo deve ter pelo menos um usuário';
