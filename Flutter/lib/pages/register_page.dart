@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'home_after_login_page.dart'; // corrigido
+import 'home_after_login_page.dart';
 
 class RegisterPage extends StatefulWidget {
   const RegisterPage({super.key});
@@ -15,7 +15,7 @@ class _RegisterPageState extends State<RegisterPage> {
   void _register() {
     Navigator.pushReplacement(
       context,
-      MaterialPageRoute(builder: (_) => HomeAfterLoginPage()), // remove const
+      MaterialPageRoute(builder: (_) => HomeAfterLoginPage()),
     );
   }
 
@@ -31,10 +31,15 @@ class _RegisterPageState extends State<RegisterPage> {
               width: 300,
               child: TextField(
                 controller: _emailController,
-                decoration: const InputDecoration(
-                  border: OutlineInputBorder(),
+                decoration: InputDecoration(
+                  border: const OutlineInputBorder(),
                   labelText: 'Email',
+                  labelStyle: TextStyle(color: const Color(0xFFFFDBDA)),
+                  enabledBorder: OutlineInputBorder(
+                    borderSide: BorderSide(color: const Color(0xFF7F7CAF)),
+                  ),
                 ),
+                style: const TextStyle(color: Colors.white),
               ),
             ),
             const SizedBox(height: 16),
@@ -43,10 +48,15 @@ class _RegisterPageState extends State<RegisterPage> {
               child: TextField(
                 controller: _passwordController,
                 obscureText: true,
-                decoration: const InputDecoration(
-                  border: OutlineInputBorder(),
+                decoration: InputDecoration(
+                  border: const OutlineInputBorder(),
                   labelText: 'Senha',
+                  labelStyle: TextStyle(color: const Color(0xFFFFDBDA)),
+                  enabledBorder: OutlineInputBorder(
+                    borderSide: BorderSide(color: const Color(0xFF7F7CAF)),
+                  ),
                 ),
+                style: const TextStyle(color: Colors.white),
               ),
             ),
             const SizedBox(height: 24),

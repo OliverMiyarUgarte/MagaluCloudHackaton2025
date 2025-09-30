@@ -13,25 +13,18 @@ class HomeAfterLoginPage extends StatefulWidget {
 
 class _HomeAfterLoginPageState extends State<HomeAfterLoginPage> {
   int selectedIndex = 0;
+  double totalHoursStudied = 42.5;
 
   @override
   Widget build(BuildContext context) {
-    // Dados do usuário
     String userName = 'Ian';
-    int dragonLevel = 5;
-    int dragonXP = 120;
-    int dragonMaxXP = 200;
-    int dragonHealth = 80;
     int streak = 3;
 
     final pages = [
       MainPage(
         userName: userName,
-        dragonLevel: dragonLevel,
-        dragonXP: dragonXP,
-        dragonMaxXP: dragonMaxXP,
-        dragonHealth: dragonHealth,
         streak: streak,
+        totalHours: totalHoursStudied,
       ),
       const AddFriendPage(),
       const DragonsPage(),
@@ -43,14 +36,20 @@ class _HomeAfterLoginPageState extends State<HomeAfterLoginPage> {
           NavigationRail(
             selectedIndex: selectedIndex,
             onDestinationSelected: (index) => setState(() => selectedIndex = index),
-            backgroundColor: Colors.deepPurple.withOpacity(0.2),
+            backgroundColor: const Color(0xFF2B303A),
             labelType: NavigationRailLabelType.all,
             leading: GestureDetector(
               onTap: () {
                 Navigator.push(
                   context,
                   MaterialPageRoute(
-                    builder: (_) => ProfilePage(userName: userName),
+                    builder: (_) => ProfilePage(
+                      userName: userName,
+                      email: 'ian@email.com',
+                      level: (totalHoursStudied ~/ 10) + 1,
+                      dragonsOwned: 0,
+                      streak: streak,
+                    ),
                   ),
                 );
               },

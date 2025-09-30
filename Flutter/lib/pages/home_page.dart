@@ -15,7 +15,7 @@ class HomePage extends StatelessWidget {
             Text(
               'Bem-vindo!',
               style: Theme.of(context).textTheme.headlineMedium?.copyWith(
-                    color: Colors.white,
+                    color: const Color(0xFFFFDBDA),
                     fontWeight: FontWeight.bold,
                   ),
             ),
@@ -42,13 +42,7 @@ class HomePage extends StatelessWidget {
                     MaterialPageRoute(builder: (_) => const RegisterPage()),
                   );
                 },
-                style: OutlinedButton.styleFrom(
-                  side: const BorderSide(color: Colors.deepPurpleAccent),
-                ),
-                child: const Text(
-                  'Cadastro',
-                  style: TextStyle(color: Colors.deepPurpleAccent),
-                ),
+                child: const Text('Cadastro'),
               ),
             ),
           ],
