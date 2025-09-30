@@ -1,0 +1,1 @@
+ /home/ianfls/Documentos/Hackaton\ Magalu/MagaluCloudHackaton2025/Flutter/.dart_tool/flutter_build/a689e0af0f827cbca4adf15bb38ca8bd/native_assets.json: 
