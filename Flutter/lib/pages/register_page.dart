@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'home_after_login.dart';
+import 'home_after_login_page.dart'; // corrigido
 
 class RegisterPage extends StatefulWidget {
   const RegisterPage({super.key});
@@ -13,12 +13,9 @@ class _RegisterPageState extends State<RegisterPage> {
   final TextEditingController _passwordController = TextEditingController();
 
   void _register() {
-    String email = _emailController.text;
-    String password = _passwordController.text;
-
     Navigator.pushReplacement(
       context,
-      MaterialPageRoute(builder: (_) => const HomeAfterLoginPage()),
+      MaterialPageRoute(builder: (_) => HomeAfterLoginPage()), // remove const
     );
   }
 
