@@ -1,0 +1,2 @@
+# MagaluCloudHackaton2025
+MagaluCloudHackaton2025
